@@ -27,7 +27,6 @@ let mySprite = sprites.create(img`
 . . . f f e e e e e e e e f f . 
 . . . . f f . . . . . . f f . . 
 `, SpriteKind.Player)
-info.setLife(3)
 controller.moveSprite(mySprite, 100, 0)
 mySprite.setPosition(75, 91)
 let speed = 50
